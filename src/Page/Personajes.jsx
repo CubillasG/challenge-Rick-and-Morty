@@ -2,6 +2,9 @@ import React from "react";
 import { useState } from "react";
 import { useEffect } from "react";
 import { NavLink } from "react-router-dom";
+
+
+import Card from "../Componentes/Card";
 import { PersonajesAxios } from "../Hoocks/ConsumirApi";
 
 const Personajes = () => {
@@ -12,15 +15,15 @@ const Personajes = () => {
   }, []);
 
   return (
-    <>
-     
+    <div>
+      
         {personajes.map((item) => (
           <NavLink to={`/personajes/${item.id}`}>
-            {item.id} - {item.name}
+          <Card key={item.id} personajes={item}/>
           </NavLink>
         ))}
-    
-    </>
+      
+    </div>
   );
 };
 

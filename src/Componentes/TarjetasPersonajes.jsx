@@ -7,21 +7,18 @@ import { PersonajeUnico } from "../Hoocks/ConsumirApi";
 const TarjetasPersonajes = () => {
   let params = useParams();
 
-  const [unico, setUnico] = useState([])
+  const [unico, setUnico] = useState({});
 
-  useEffect(()=>{
-    PersonajeUnico(params.id, setUnico)
-    
-  },[])
-
- 
+  useEffect(() => {
+    PersonajeUnico(params, setUnico);
+  }, []);
 
   return (
-    <div >
-    <h2>
-      Personaje: {params.id}
-    </h2>
-    <p>{unico.id}-{unico.name}</p>
+    <div>
+      <h2>Personaje: {params.id} - {params.name}</h2>
+      <p>
+        {unico.id}-{unico.name}
+      </p>
     </div>
   );
 };

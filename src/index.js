@@ -4,9 +4,6 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Personajes from "./Page/Personajes";
-import Contactame from "./Page/Contactame";
-import Home from "./Page/Home";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
