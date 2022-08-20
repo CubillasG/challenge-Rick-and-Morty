@@ -10,15 +10,13 @@ const TarjetasPersonajes = () => {
   const [unico, setUnico] = useState({});
 
   useEffect(() => {
-    PersonajeUnico(params, setUnico);
+    PersonajeUnico(setUnico, params.id);
   }, []);
 
   return (
     <div>
-      <h2>Personaje: {params.id} - {params.name}</h2>
-      <p>
-        {unico.id}-{unico.name}
-      </p>
+      <h2>Personje : {params.id}</h2>
+      <p>Personaje: {unico.name}</p>
     </div>
   );
 };

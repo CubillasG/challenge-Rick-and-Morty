@@ -9,8 +9,10 @@ import axios from 'axios'
     }
 
     const PersonajeUnico = async(state,id)=>{
-        const respuesta = await axios.get(`https://rickandmortyapi.com/api/character/${id}`)
-        state(respuesta.data.results)
+        const res = await axios.get(`https://rickandmortyapi.com/api/character/${id}`)
+       
+         state(res.data);
+        
     }
 
     export {
