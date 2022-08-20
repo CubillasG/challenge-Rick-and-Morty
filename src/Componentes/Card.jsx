@@ -1,13 +1,16 @@
 import React from "react";
-
+import './Cards.css'
 
 const Card = ({ personajes }) => {
   return (
-
-      <div>
-        <h1>{personajes.name}</h1>
+    <>
+      <div className="card tamaño">
+        <img src={personajes.image} className="card-img-top " />
+        <div className="card-body">
+          <p className="card-text">{personajes.name}</p>
+        </div>
       </div>
-   
+    </>
   );
 };
 

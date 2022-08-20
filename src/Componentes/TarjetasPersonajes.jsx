@@ -15,7 +15,6 @@ const TarjetasPersonajes = () => {
 
   return (
     <div>
-      <h2>Personje : {params.id}</h2>
       <p>Personaje: {unico.name}</p>
     </div>
   );
