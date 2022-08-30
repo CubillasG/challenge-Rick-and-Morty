@@ -5,20 +5,18 @@ import Contactame from "./Page/Contactame";
 import Home from "./Page/Home";
 import NoEncontrada from "./Page/NoEncontrada";
 import Personajes from "./Page/Personajes";
+import "./App.css";
 
 function App() {
   return (
     <>
-      <header>
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <BarraNavegacion />
-            </div>
-          </div>
+      <div className="container">
+        <div className="col-12">
+          <header>
+            <BarraNavegacion />
+          </header>
         </div>
-      </header>
-
+      </div>
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="personajes" element={<Personajes />}></Route>

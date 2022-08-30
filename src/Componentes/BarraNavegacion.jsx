@@ -1,10 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import './BarraNavegacion.css'
 
 function BarraNavegacion() {
   return (
     <>
-      <div className="navbar navbar-dark bg-dark">
+      <div className="navbar navbar-expand-lg navbar-light bg-light clase_nav">
         <NavLink to="/" className="btn btn-outline-primary">
           Inicio
         </NavLink>
