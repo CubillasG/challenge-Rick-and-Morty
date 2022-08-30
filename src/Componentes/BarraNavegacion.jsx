@@ -1,22 +1,27 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import './BarraNavegacion.css'
-
+import Icono from '../assets/icono.png'
 function BarraNavegacion() {
   return (
-    <>
-      <div className="navbar navbar-expand-lg navbar-light bg-light clase_nav">
-        <NavLink to="/" className="btn btn-outline-primary">
+    <div className="row class_icono">
+      
+      <div className="navbar navbar-expand-lg class_navbar">
+    
+        <img src={Icono} alt='icono'/>
+        <div className="class_nav">
+        <NavLink to="/" className="btn btn-outline-light">
           Inicio
         </NavLink>
-        <NavLink to="/personajes" className="btn btn-outline-primary">
+        <NavLink to="/personajes" className="btn btn-outline-light">
           Personajes
         </NavLink>
-        <NavLink to="/contacto" className="btn btn-outline-primary">
+        <NavLink to="/contacto" className="btn btn-outline-light">
           Contactos
         </NavLink>
+        </div>
       </div>
-    </>
+    </div>
   );
 }
 

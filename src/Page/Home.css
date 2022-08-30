@@ -1,8 +1,26 @@
-.claseHome_texto{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    
-
+.claseHome_texto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.class_home {
+  background-color: rgb(32, 35, 41);
+}
+h2 {
+  font-family: -apple-system, "BlinkMacSystemFont", "Segoe UI", "Roboto",
+    "Helvetica", "Arial", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  padding: 1rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #ffff;
+  text-align: center;
+}
+.card-img-top {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }

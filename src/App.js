@@ -12,9 +12,9 @@ function App() {
     <>
       <div className="container">
         <div className="col-12">
-          <header>
-            <BarraNavegacion />
-          </header>
+          <BarraNavegacion />
+
+          <h1 className="class_title">Rick and Morty</h1>
         </div>
       </div>
       <Routes>

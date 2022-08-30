@@ -1,3 +1,13 @@
-.clase_nav {
-    margin-bottom: 20px;
+
+.class_navbar{
+    background-color: rgb(32, 35, 41);
+}
+.class_nav{
+    position: absolute;
+    right: 0.5px;
+    padding: 0.5rem;
+}
+.class_icono{
+    display: flex;
+    
 }
