@@ -1,0 +1,13 @@
+.class_modal{
+    position: absolute;
+    top: 150px;
+    left: 10%;
+    width: 330px;
+    background-color: red;
+}
+.class_closed{
+    position: absolute;
+    left: 90%;
+   width: 30px;
+
+}

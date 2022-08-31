@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import imagen from "../assets/imagen.jpg";
 import "./Home.css";
+import ModalInfo from "./ModalInfo/ModalInfo";
+
 
 const Home = () => {
   return (
@@ -11,6 +13,7 @@ const Home = () => {
           <div className="card">
             <img src={imagen} alt="..." />
           </div>
+          <ModalInfo/>
         </div>
 
         <div className="col-6 claseHome_texto">
