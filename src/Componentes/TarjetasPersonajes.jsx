@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { useParams } from "react-router-dom";
 import { PersonajeUnico } from "../Hoocks/ConsumirApi";
+import './TarjetaPersonaje.css'
 
 const TarjetasPersonajes = () => {
   let params = useParams();
@@ -14,8 +15,11 @@ const TarjetasPersonajes = () => {
   }, []);
 
   return (
-    <div>
-      <p>Personaje: {unico.name}</p>
+    <div className="class_personajeUnico">
+      <h3 className="class_title2">{unico.name}</h3>
+      <img className="class_img" src={unico.image} alt='imagen'/>
+      <p className="class_species">{unico.species}</p>
+
     </div>
   );
 };

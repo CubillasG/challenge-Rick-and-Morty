@@ -4,12 +4,12 @@ import './Cards.css'
 const Card = ({ personajes }) => {
   return (
     <>
-      <div className="card tamaño">
+      <div className="card_tamaño">
         <img src={personajes.image} className="card-img-top " />
         <div className="card-body">
-          <p className="card-text">{personajes.name}</p>
+          <p className="card_text">{personajes.name}</p>
         </div>
-      </div>
+      </div> 
     </>
   );
 };

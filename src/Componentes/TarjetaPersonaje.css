@@ -1,0 +1,20 @@
+.class_personajeUnico{
+   
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(32, 35, 41);
+}
+.class_title2{
+    color: white;
+    font-weight: 600;
+    padding: 2px;
+}
+.class_img{
+    border: white solid 1px;
+    border-radius: 50% 20% / 10% 40%;
+}
+.class_species{
+    color: white;
+    font-weight: 500;
+    padding-top: 30px;
+}

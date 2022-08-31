@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Card from "../Componentes/Card";
 import { PersonajesAxios } from "../Hoocks/ConsumirApi";
+import './Personajes.css'
 
 const Personajes = () => {
   const [personajes, setPersonajes] = useState([]);
@@ -13,12 +14,12 @@ const Personajes = () => {
   }, []);
 
   return (
-    <div>
+    <div className="class_personajes">
       {personajes.map((item) => (
        
         <Link to={`/personajes/${item.id}`}>
           <Card key={item.id} personajes={item} />
-        </Link>
+        </Link> 
       ))}
     </div>
   );

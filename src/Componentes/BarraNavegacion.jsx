@@ -14,7 +14,7 @@ function BarraNavegacion() {
         <div className="class_nav">
           <NavLink to="/" className="btn btn-outline-light">
             Inicio
-          </NavLink>
+          </NavLink> 
           <NavLink to="/personajes" className="btn btn-outline-light">
             Personajes
           </NavLink>

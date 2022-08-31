@@ -1,0 +1,10 @@
+.class_personajes {
+  background-color: rgb(32, 35, 41);
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+/* .class_personajes:hover{
+    background-color: aqua;
+} */

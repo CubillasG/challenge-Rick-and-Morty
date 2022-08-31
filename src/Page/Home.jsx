@@ -9,15 +9,14 @@ const Home = () => {
       <div className="row">
         <div className="col-6">
           <div className="card">
-            <img src={imagen}  alt="..." />
-            
+            <img src={imagen} alt="..." />
           </div>
         </div>
 
         <div className="col-6 claseHome_texto">
-         <h2>Descubre el loco munfo de estos personajes!</h2> 
+          <h2>Descubre el loco munfo de estos personajes!</h2>
           <Link to="personajes">
-            <button className="btn btn-primary">Personajes</button>
+            <button className="btn btn-light">Personajes</button>
           </Link>
         </div>
       </div>
