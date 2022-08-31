@@ -9,8 +9,8 @@ const Home = () => {
       <div className="row">
         <div className="col-6">
           <div className="card">
-            <img src={imagen} className="card-img-top" alt="..." />
-            <div className="card-body"></div>
+            <img src={imagen}  alt="..." />
+            
           </div>
         </div>
 

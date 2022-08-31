@@ -6,6 +6,8 @@ import Home from "./Page/Home";
 import NoEncontrada from "./Page/NoEncontrada";
 import Personajes from "./Page/Personajes";
 import "./App.css";
+import PaginaPrincipal from "./Componentes/PaginaPrincipal";
+import RedesSociales from "./Componentes/RedesSociales";
 
 function App() {
   return (
@@ -14,16 +16,25 @@ function App() {
         <div className="col-12">
           <BarraNavegacion />
 
-          <h1 className="class_title">Rick and Morty</h1>
+          <main>
+            <PaginaPrincipal />
+          </main>
+
+          <Routes>
+            <Route path="/" element={<Home />}></Route>
+            <Route path="personajes" element={<Personajes />}></Route>
+            <Route
+              path="personajes/:id"
+              element={<TarjetasPersonajes />}
+            ></Route>
+            <Route path="contacto" element={<Contactame />}></Route>
+            <Route path="*" element={<NoEncontrada />}></Route>
+          </Routes>
+          <footer>
+            <RedesSociales />
+          </footer>
         </div>
       </div>
-      <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="personajes" element={<Personajes />}></Route>
-        <Route path="personajes/:id" element={<TarjetasPersonajes />}></Route>
-        <Route path="contacto" element={<Contactame />}></Route>
-        <Route path="*" element={<NoEncontrada />}></Route>
-      </Routes>
     </>
   );
 }

@@ -1,0 +1,13 @@
+.class_redes{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 3rem;
+    
+}
+.titulo_redes{
+    text-align: center;
+    margin-top: 2rem;
+    font-family: -apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+    
+}
