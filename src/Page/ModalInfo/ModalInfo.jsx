@@ -12,7 +12,7 @@ const ModalInfo = ({ closeModal }) => {
         onClick={() => closeModal(false)}
       />
 
-      <h2>Rick and Mortyyyy!</h2>
+      <h2 className="class_title_info">Rick and Mortyyyy!</h2>
     </div>
   );
 };
