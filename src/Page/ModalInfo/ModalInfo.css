@@ -1,13 +1,25 @@
 .class_modal{
     position: absolute;
-    top: 150px;
-    left: 10%;
-    width: 330px;
-    background-color: red;
+    top: 40%;
+    left: 25%;
+    width: 50%;
+    height: 300px;
+    background-color: black;
+    opacity: 0.6;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 5px;
 }
 .class_closed{
     position: absolute;
     left: 90%;
-   width: 30px;
-
+    width: 30px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
