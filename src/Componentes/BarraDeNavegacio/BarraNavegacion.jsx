@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./BarraNavegacion.css";
-import Icono from "../assets/icono.png";
+import Icono from "../../assets/icono.png";
 
 function BarraNavegacion() {
   return (

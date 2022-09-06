@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import BarraNavegacion from "./Componentes/BarraNavegacion";
+
 import TarjetasPersonajes from "./Componentes/TarjetasPersonajes";
 import Contactame from "./Page/Contactame";
 import Home from "./Page/Home";
@@ -8,6 +8,7 @@ import Personajes from "./Page/Personajes";
 import "./App.css";
 import PaginaPrincipal from "./Componentes/PaginaPrincipal";
 import RedesSociales from "./Componentes/RedesSociales";
+import BarraNavegacion from "./Componentes/BarraDeNavegacio/BarraNavegacion";
 
 function App() {
   return (

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import iconoClose from "../../assets/close.png";
 import "./ModalInfo.css";
 
-const ModalInfo = ({ closeModal }) => {
+const ModalInfo = ({ closeModal }) => { 
   return (
     <div className="class_modal">
       <img

@@ -1,13 +1,19 @@
-.class_redes{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    margin: 3rem;
-    
+.class_redes {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+ padding: 1rem;
 }
-.titulo_redes{
-    text-align: center;
-    margin-top: 2rem;
-    font-family: -apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
-    
+.titulo_redes {
+  text-align: center;
+  margin-top: 2rem;
+  font-family: -apple-system, "BlinkMacSystemFont", "Segoe UI", "Roboto",
+    "Helvetica", "Arial", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+}
+.class_imgRedes{
+    margin: 0.5rem;
+    box-shadow:  5px 8px 10px #888888;
+
 }

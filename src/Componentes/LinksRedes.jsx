@@ -8,15 +8,15 @@ import './LinksRedes.css'
 const LinksRedes = () => {
   return (
     <div className='class_redes'>
-      <Link to='https://www.linkedin.com/in/gonzalo-cubillas-a4a1791b6/'>
-        <img src={IconLin}/>
-      </Link>
-      <Link to='https://github.com/CubillasG'>
-        <img src={IconGit}/>
-      </Link>
-      <Link to='https://www.instagram.com/'>
-        <img src={IconInst}/>
-      </Link>
+      <a href='https://www.linkedin.com/in/gonzalo-cubillas-a4a1791b6/' target='blank'>
+        <img src={IconLin} className='class_imgRedes'/>
+      </a>
+      <a href='https://github.com/CubillasG' target='blank'>
+        <img src={IconGit} className='class_imgRedes'/>
+      </a>
+      <a href='https://www.instagram.com/' target='blank'>
+        <img src={IconInst} className='class_imgRedes'/>
+      </a>
     </div>
   )
 }
